@@ -18,7 +18,7 @@ exports.e404 = (req, res, next) => {
     message:
       req.error?.message && config.isDev
         ? req.error?.message
-        : "Page not found.",
+        : "Page non trouvée.",
   });
 };
 
